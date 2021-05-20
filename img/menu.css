@@ -1,0 +1,114 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+ul{
+	float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+ul li{
+	display: inline-block;
+
+}
+ul li a{
+	text-decoration: none;
+	color: black;
+	padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.6s ease 
+}
+
+.main{
+	max-width:1200px;
+	margin: auto;
+	color: black;
+}
+
+.logo{
+  position: absolute;
+  top: 6%;
+  left: 25%;
+  transform: translate(-50%,-50%);
+  color: black;
+}
+.logo h1{
+	font-size: 30px;
+}
+
+.menu{
+  position: absolute;
+  top: 16%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  color: black;
+  border: solid;
+  border-color: green;
+  width: 1000px;
+  text-align: center;
+  font-size: 25px;
+
+}
+.menu h6{
+	border: black solid 1px;
+	font-size: 13px;
+	color: olive;
+	background-color: black;
+}
+.starter{
+	position: absolute;
+    top: 53%;
+    left: 31%;
+    transform: translate(-50%,-50%);
+    border: black solid 2px;
+    width: 300px;
+    height: 500px;
+    text-align: center;
+
+}
+.foot-icon{
+	position: absolute;
+	top: 90%;
+	left: 30%;
+	transform: translate(-50%,-50%); 
+	color: black;
+}
+.foot-menu{
+	position: absolute;
+	top: 85%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+}
+.foot-menu ul li ul li{
+	border-top: 1px solid #fff;
+}
+.foot-menu ul li ul{
+	display: none;
+}
+.foot-menu ul li:hover ul{
+	display: block;
+}
+.foot2{
+	position: absolute;
+	top: 89%;
+	left: 70%;
+	transform: translate(-50%,-50%);
+	color: black; 
+}
+.foot-bottom{
+	position: absolute;
+	top: 95%;
+	left: 50%;
+	transform: translate(-50%,-50%); 
+	color: black;
+	text-align: center;
+}
+
+.add{
+	position: absolute;
+	top: 90%;
+	left: 67%;
+	transform: translate(-50%,-50%);
+	color: black;
+}

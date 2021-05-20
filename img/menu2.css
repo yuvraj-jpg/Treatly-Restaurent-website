@@ -1,0 +1,88 @@
+.non{
+	position: absolute;
+    top: 52%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: black solid 2px;
+    width: 900px;
+    height: 600px;
+    background-color: transparent;
+ 
+    
+}
+.non h1{
+	border: black solid 1px;
+	 text-align: center;
+    
+}
+.non ol li{
+	font-size: 15px;
+
+}
+.chaat{
+    position: absolute;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: black solid 2px;
+    width: 900px;
+    height: 370px;
+ 
+    
+}
+.chaat h1{
+    border: black solid 1px;
+     text-align: center;
+    
+}
+.chaat ol li{
+    font-size: 15px;
+
+}
+
+
+.select ul{
+    float: right;
+    list-style-type: none;
+    margin-top: 25px;
+}
+
+.select ul li{
+    display: inline-block;
+
+}
+
+.select ul li a{
+    text-decoration: none;
+    color: black;
+    padding: 15px 28px;
+    border: 1px solid transparent;
+    transition: 0.6s ease 
+}
+
+.select ul li a:hover{
+    background-color: blue;
+    color: red;
+
+}
+.select{
+    max-width:1200px;
+    margin: auto;
+    font-size: 23px;
+    position: absolute;
+    top: 41%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.item{
+    position: absolute;
+    top: 53%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: black solid 2px;
+    width: 700px;
+    height: 500px;
+    text-align: center;
+    
+
+}
